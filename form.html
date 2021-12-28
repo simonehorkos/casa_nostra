@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Sign Up</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia&effect=fire"
+    />
+    <style>
+      p {
+        font-family: "Sofia", sans-serif;
+        font-size: 30px;
+      }
+      body {
+        background-image: url("https://thumbs.dreamstime.com/b/vector-pizza-seamless-pattern-vector-pizza-seamless-pattern-square-repeating-pizza-background-group-cut-out-illustrations-202768006.jpg");
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div2" style="padding-left:50px;
+    padding-right: 50px;">
+      <div
+        id="div1"
+        style="
+          width: '70%';
+          margin: auto;
+          
+          margin-top: 100px;
+          background-color: white;
+          padding: 30px;
+          border-radius: 50px;
+        "
+      >
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+          </ol>
+        </nav>
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Registration
+            </li>
+          </ol>
+        </nav>
+
+        <div class="signup-img-content">
+          <h1>Register now</h1>
+          <p class="font-effect-fire">To be part of our big lovely family!!!</p>
+        </div>
+
+        <form
+        action="./"
+          class="row g-3 needs-validation"
+          validate
+          align-items="center"
+          justify-content="center"
+        >
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label"
+              >First name</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom01"
+              placeholder="First Name"
+              required
+            />
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom02"
+              placeholder="Last Name"
+              required
+            />
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom03" class="form-label">Company</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom03"
+              placeholder="Company"
+            />
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+          <br />
+
+          <div class="col-md-6">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="name@example.com"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="123xr43RR##"
+            />
+          </div>
+
+          <div class="col-md-4">
+            <label for="validationCustom04" class="form-label"
+              >Phone Number</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom04"
+              placeholder="+961 3 333 333"
+              required
+            />
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+
+          <br />
+          <div>
+            <input
+              type="submit"
+              value="Submit"
+              class="btn btn-outline-warning"
+              id="submit"
+              name="submit"
+            />
+
+            <input
+              type="submit"
+              value="Reset"
+              class="btn btn-outline-warning"
+              id="reset"
+              name="reset"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
